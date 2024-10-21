@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -11,6 +10,8 @@ export default function Home() {
           coach, player, or fan, understanding these small but crucial
           differences can deepen your appreciation and knowledge of the game.
         </h1>
+
+        <section></section>
       </main>
     </div>
   );

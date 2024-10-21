@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/footer/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -15,7 +17,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Basketball Code",
-  description: "page about basketball rules",
+  description: "A basketball rules guide",
 };
 
 export default function RootLayout({
@@ -26,7 +28,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
