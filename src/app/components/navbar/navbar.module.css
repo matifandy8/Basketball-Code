@@ -5,8 +5,7 @@
   padding: 0;
   margin: 0;
   background: linear-gradient(to bottom, #002f6c, rgba(0, 47, 108, 0));
-  min-height: 125px;
-  padding-top: 2.5rem;
+  min-height: 100px;
   position: fixed;
   top: 0;
   z-index: 50;
