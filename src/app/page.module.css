@@ -5,68 +5,9 @@
   grid-row-start: 2;
   min-height: 100vh;
 }
-.hero {
-  position: relative;
-  width: 100%;
-  height: 600px;
-  overflow: hidden;
-  background-image: url("/images/court-basketball.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  .title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 50%;
-    font-size: 3.5rem;
-    color: #ffffff;
-    text-align: center;
-    z-index: 2;
-    opacity: 0;
-    animation: fadeIn 2s ease-in-out forwards;
 
-    @media (max-width: 768px) {
-      width: 90%;
-    }
-  }
-}
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #002f6c;
-  opacity: 0.3;
-  z-index: 1;
-}
-.hero:after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 30px;
-  width: 100%;
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
-  background-color: #ffffff;
-  content: "";
-  z-index: 3;
-}
+
 
 .section {
   display: flex;

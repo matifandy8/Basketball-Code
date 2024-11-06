@@ -1,16 +1,16 @@
 import styles from "./page.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import Hero from "./components/hero/hero";
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <div className={styles.hero}>
-        <h1 className={styles.title}>
-          Discover the key differences between the NBA and FIBA rules—the two
-          most important basketball leagues in the world.
-        </h1>
-      </div>
+      <Hero
+        title="Discover the key differences between the NBA and FIBA rules—the two
+          most important basketball leagues in the world."
+        imageUrl="/images/court-basketball.jpg"
+      />
 
       <section className={styles.section}>
         <div className={styles.sectionContent}>
