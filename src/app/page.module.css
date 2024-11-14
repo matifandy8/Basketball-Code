@@ -6,9 +6,6 @@
   min-height: 100vh;
 }
 
-
-
-
 .section {
   display: flex;
   justify-content: center;
@@ -25,6 +22,15 @@
     align-items: center;
     flex-direction: row;
     gap: 50px;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      max-width: 400px;
+
+      &:first-of-type {
+        flex-direction: column-reverse;
+      }
+    }
 
     .sectionTextContainer {
       display: flex;
