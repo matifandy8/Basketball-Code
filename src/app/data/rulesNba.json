@@ -1,0 +1,59 @@
+{
+  "rulesList": [
+    {
+      "id": 1,
+      "image": {
+        "src": "/images/court-basketball.jpg",
+        "alt": "Basketball court"
+      },
+      "text": {
+        "title": "COURT DIMENSIONS",
+        "description": "The NBA basketball court is 94 feet long and 50 feet wide. The height of the hoop is 10 feet."
+      }
+    },
+    {
+      "id": 2,
+      "image": {
+        "src": "/images/game-timing.jpg",
+        "alt": "Game timing"
+      },
+      "text": {
+        "title": "GAME TIMING",
+        "description": "An NBA game consists of four 12-minute periods. If the score is tied, overtime periods of 5 minutes are played."
+      }
+    },
+    {
+      "id": 3,
+      "image": {
+        "src": "/images/shot-clock.webp",
+        "alt": "Shot clock"
+      },
+      "text": {
+        "title": "SHOT CLOCK",
+        "description": "Teams have 24 seconds to attempt a field goal after gaining possession. The clock resets to 14 seconds on an offensive rebound."
+      }
+    },
+    {
+      "id": 4,
+      "image": {
+        "src": "/images/timeouts.webp",
+        "alt": "Timeouts"
+      },
+      "text": {
+        "title": "TIMEOUTS",
+        "description": "Each team gets 7 timeouts during regulation play, with restrictions in the fourth period. Overtime grants 2 additional timeouts per team."
+      }
+    },
+    {
+      "id": 5,
+      "image": {
+        "src": "/images/scoring.jpg",
+        "alt": "Scoring rules"
+      },
+      "text": {
+        "title": "SCORING",
+        "description": "Field goals are worth 2 points unless made beyond the three-point line, which are worth 3 points. Free throws are worth 1 point each."
+      }
+    }
+  ]
+}

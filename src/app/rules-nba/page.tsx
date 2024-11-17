@@ -1,5 +1,8 @@
 import Hero from "../components/hero/hero";
 import styles from "./rules.module.css";
+import Image from "next/image";
+import rules from "../data/rulesNba.json";
+import Link from "next/link";
 
 export default function RulesNba() {
   return (
@@ -9,27 +12,41 @@ export default function RulesNba() {
         <div className={styles.rulesContent}>
           <h2 className={styles.rulesTitle}>General Rules</h2>
           <div className={styles.rulesList}>
-            <div className={styles.rulesListItem}>
-              <div className={styles.rulesListItemImage}>
-                <img
-                  alt="court nba"
-                  data-ll-status="loaded"
-                  src="/images/NBA-basketball-court-dimensions.jpg"
-                />
-              </div>
-              <div className={styles.rulesListItemText}>
-                <span>1.</span>
-                <div className={styles.rulesListItemTextContent}>
-                  <h3 className={styles.rulesListItemTextTitle}>
-                    COURT DIMENSIONS
+            {rules?.rulesList.map((item: any) => (
+              <div key={item.id} className={styles.rulesListItem}>
+                <div className={styles.rulesListItemImage}>
+                  <Image
+                    src={item.image.src}
+                    alt={item.image.alt}
+                    width={400}
+                    height={300}
+                    className={styles.rulesListItemImage}
+                  />
+                </div>
+                <div className={styles.rulesListItemText}>
+                  <h3 className={styles.rulesListItemTitle}>
+                    {item.text.title}
                   </h3>
-                  <p className={styles.rulesListItemTextDescription}>
-                    The NBA basketball court is 94 feet long and 50 feet wide.
-                    The height of the hoop is 7 feet.
+                  <p className={styles.rulesListItemDescription}>
+                    {item.text.description}
                   </p>
                 </div>
               </div>
-            </div>
+            ))}
+          </div>
+
+          <div>
+            <p>
+              For more information, please visit:{" "}
+              <Link
+                href="https://official.nba.com/rulebook/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.link}
+              >
+                https://official.nba.com/rulebook/
+              </Link>
+            </p>
           </div>
         </div>
       </div>
