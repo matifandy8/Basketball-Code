@@ -1,4 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Basketball Rules Explorer
+
+This project is a web-based application designed to explore and compare the rules of basketball as defined by the NBA and FIBA. It provides an interactive way to understand the similarities and differences between these two governing bodies' regulations.
+
+## Features
+
+- Interactive exploration of NBA and FIBA rules.
+- Visual representation of key rules such as court dimensions, shot clock, scoring, timeouts, and more.
+- Comparison of significant differences between NBA and FIBA rules.
+- Designed as an educational resource for basketball enthusiasts, players, and students of the game.
+
+## Disclaimer
+
+This project is **not affiliated with or endorsed by the NBA or FIBA**. The content provided here is based on publicly available resources, including the official NBA and FIBA rulebooks, and is used under fair use guidelines for educational and informational purposes.
+
+For the official and most up-to-date rules, please refer to:
+
+- [NBA Official Rulebook](https://official.nba.com/rulebook/)
+- [FIBA Official Basketball Rules](https://www.fiba.basketball/)
+
+## Usage
+
+Feel free to use this project as a learning tool or for personal study. Feedback, contributions, and suggestions for improvement are welcome!
+
+## License
+
+This project is open-source and licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Getting Started
 
@@ -19,18 +45,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
