@@ -1,0 +1,59 @@
+{
+  "rulesList": [
+    {
+      "id": 1,
+      "image": {
+        "src": "/images/fiba-court-fiba.png",
+        "alt": "FIBA Basketball Court"
+      },
+      "text": {
+        "title": "COURT DIMENSIONS",
+        "description": "The FIBA basketball court measures 91.86 feet by 49.21 feet (28m x 15m), slightly smaller than the NBA court."
+      }
+    },
+    {
+      "id": 2,
+      "image": {
+        "src": "/images/game-timing.jpg",
+        "alt": "Game timing"
+      },
+      "text": {
+        "title": "GAME TIMING",
+        "description": "A FIBA game consists of four 10-minute quarters. Overtime periods last 5 minutes."
+      }
+    },
+    {
+      "id": 3,
+      "image": {
+        "src": "/images/three-point-line-fiba.png",
+        "alt": "Three-point line"
+      },
+      "text": {
+        "title": "THREE-POINT LINE",
+        "description": "The three-point line is uniformly 22.15 feet (6.75m) from the basket, compared to the variable distance in the NBA."
+      }
+    },
+    {
+      "id": 4,
+      "image": {
+        "src": "/images/timeouts-fiba.webp",
+        "alt": "Timeouts"
+      },
+      "text": {
+        "title": "TIMEOUTS",
+        "description": "Each team has two timeouts in the first half and three in the second half, with a limit of two in the final 2 minutes of the game. Only coaches can call timeouts."
+      }
+    },
+    {
+      "id": 5,
+      "image": {
+        "src": "/images/fouls-fiba.jpg",
+        "alt": "Fouls"
+      },
+      "text": {
+        "title": "FOULS",
+        "description": "Players are disqualified after 5 personal fouls in FIBA games, compared to 6 in the NBA."
+      }
+    }
+  ]
+}
