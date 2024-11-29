@@ -4,6 +4,8 @@ import Image from "next/image";
 import rules from "../data/rulesNba.json";
 import Link from "next/link";
 
+import { RulesListElement } from "../types/rulesList";
+
 export default function RulesNba() {
   return (
     <div>
@@ -12,7 +14,7 @@ export default function RulesNba() {
         <div className={styles.rulesContent}>
           <h2 className={styles.rulesTitle}>General Rules</h2>
           <div className={styles.rulesList}>
-            {rules?.rulesList.map((item: any) => (
+            {rules?.rulesList.map((item: RulesListElement) => (
               <div key={item.id} className={styles.rulesListItem}>
                 <div className={styles.rulesListItemImage}>
                   <Image

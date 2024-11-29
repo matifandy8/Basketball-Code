@@ -3,6 +3,7 @@ import styles from "./rules.module.css";
 import Image from "next/image";
 import rules from "../data/rulesFiba.json";
 import Link from "next/link";
+import { RulesListElement } from "../types/rulesList";
 
 export default function RulesFiba() {
   return (
@@ -12,7 +13,7 @@ export default function RulesFiba() {
         <div className={styles.rulesContent}>
           <h2 className={styles.rulesTitle}>General Rules</h2>
           <div className={styles.rulesList}>
-            {rules?.rulesList.map((item: any) => (
+            {rules?.rulesList.map((item: RulesListElement) => (
               <div key={item.id} className={styles.rulesListItem}>
                 <div className={styles.rulesListItemImage}>
                   <Image
