@@ -32,9 +32,8 @@ export default function Home() {
               className={styles.sectionImage}
               priority
               quality={100}
-              width={400}
-              height={400}
-              sizes="(max-width: 400px) 100vw, 400px"
+              width={300}
+              height={300}
               style={{
                 objectFit: "cover",
                 objectPosition: "center",
@@ -52,9 +51,8 @@ export default function Home() {
               className={styles.sectionImage}
               priority
               quality={100}
-              width={400}
-              height={400}
-              sizes="(max-width: 400px) 100vw, 400px"
+              width={300}
+              height={300}
               style={{
                 objectFit: "cover",
                 objectPosition: "center",

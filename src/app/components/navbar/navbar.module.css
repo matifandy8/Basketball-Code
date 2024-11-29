@@ -21,7 +21,7 @@
       font-size: 1.5rem;
       text-decoration: none;
       gap: 10px;
-      font-family: "General Sans";
+      font-family: "General Sans", sans-serif;
     }
 
     .link:hover {
@@ -34,4 +34,19 @@
 .logoText {
   padding: 10px;
   color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: block;
+
+    .logo {
+      text-align: center;
+      padding: 10px;
+    }
+
+    .links {
+      justify-content: center;
+    }
+  }
 }
