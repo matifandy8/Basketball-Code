@@ -4,65 +4,60 @@
   gap: 32px;
   max-width: 1000px;
   margin: 0 auto;
+}
 
-  .rulesContent {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
+.rulesContent {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
 
-    .rulesTitle {
-      font-size: 4rem;
-      font-weight: bold;
-      text-align: center;
-    }
+.rulesTitle {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
 
-    .rulesList {
-      display: flex;
-      flex-direction: column;
-      gap: 32px;
+.rulesList {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
 
-      .rulesListItem {
-        display: flex;
-        flex-direction: row;
-        gap: 32px;
+.rulesListItem {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
 
-        .rulesListItemImage {
-          object-fit: cover;
-          border-radius: 1rem;
-        }
+.rulesListItemImage {
+  object-fit: cover;
+  border-radius: 1rem;
+}
 
-        .rulesListItemText {
-          display: flex;
-          flex-direction: column;
-          gap: 16px;
+.rulesListItemText {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
-          .rulesListItemTitle {
-            font-size: 2rem;
-            font-weight: bold;
-          }
+.rulesListItemTitle {
+  font-size: 2rem;
+  font-weight: bold;
+}
 
-          .rulesListItemDescription {
-            font-size: 1.5rem;
-          }
-        }
-      }
-    }
-  }
+.rulesListItemDescription {
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
-  .rules {
-    .rulesContent {
-      .rulesList {
-        .rulesListItem {
-          flex-direction: column;
-          padding: 15px;
-          .rulesListItemImage {
-            width: 100%;
-            height: auto;
-          }
-        }
-      }
-    }
+  .rules .rulesContent .rulesList .rulesListItem {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .rules .rulesContent .rulesList .rulesListItem .rulesListItemImage {
+    width: 100%;
+    height: auto;
   }
 }

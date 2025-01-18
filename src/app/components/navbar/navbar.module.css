@@ -10,25 +10,27 @@
   top: 0;
   z-index: 50;
   width: 100%;
-  .links {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    list-style: none;
-    .link {
-      color: #ffffff;
-      font-size: 1.5rem;
-      text-decoration: none;
-      gap: 10px;
-      font-family: "General Sans", sans-serif;
-    }
+}
 
-    .link:hover {
-      color: rgba(255, 255, 255, 0.75);
-      transition: 0.25s;
-    }
-  }
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+}
+
+.link {
+  color: #ffffff;
+  font-size: 1.5rem;
+  text-decoration: none;
+  gap: 10px;
+  font-family: "General Sans", sans-serif;
+}
+
+.link:hover {
+  color: rgba(255, 255, 255, 0.75);
+  transition: 0.25s;
 }
 
 .logoText {
